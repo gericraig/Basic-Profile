@@ -47,6 +47,7 @@ font-family: 'Georgia','Times New Roman', Times, serif serif;
     /* margin-bottom: 20px; */
     font-size: 20px;
     margin: 10px 0px 20px 0px;
+    word-wrap:break-word;
 }  
 
 .footer {
@@ -60,8 +61,8 @@ font-family: 'Georgia','Times New Roman', Times, serif serif;
 }
 
 .image {
-    width:200px;
-    height:200px;
+    width: 200px;
+    height: 200px;
     float: left;
     margin-bottom: 20px;
 }
@@ -83,5 +84,9 @@ input[type=submit] {
     margin: 50px;
     border-radius: 4px;
     cursor: pointer;
-    
+}
+
+.thumnails{
+    margin: 15px;
+    float: left
 }
